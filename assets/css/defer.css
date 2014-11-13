@@ -142,7 +142,7 @@ code[class*=language-],pre[class*=language-]{color:#000;text-shadow:0 1px #fff;f
 /* Nav styles in the menu */
   .menu li{
     list-style-type:none;
-    font-family: Source Sans Pro;
+    font-family: Open Sans;
     font-weight: 900;
   }
   .menu a{
@@ -174,8 +174,7 @@ code[class*=language-],pre[class*=language-]{color:#000;text-shadow:0 1px #fff;f
 /* FONTS */
 
 /* This is the response sent by the commented out Brick.im lin in default.hbs. Just putting it here to minimize requests.*/
-@font-face{font-family:'Source Serif Pro';font-style:normal;font-weight:400;src:local('Source Serif Pro'),url(//brick.a.ssl.fastly.net/fonts/sourceserifpro/400.woff) format('woff')}@font-face{font-family:'Source Serif Pro';font-style:normal;font-weight:700;src:local('Source Serif Pro Bold'),url(//brick.a.ssl.fastly.net/fonts/sourceserifpro/700.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:400;src:local('Source Sans Pro Regular'),url(//brick.a.ssl.fastly.net/fonts/sourcesanspro/400.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:normal;font-weight:900;src:local('Source Sans Pro Black'),url(//brick.a.ssl.fastly.net/fonts/sourcesanspro/900.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:400;src:local('Source Sans Pro Italic'),url(//brick.a.ssl.fastly.net/fonts/sourcesanspro/400i.woff) format('woff')}@font-face{font-family:'Source Sans Pro';font-style:italic;font-weight:900;src:local('Source Sans Pro Black Italic'),url(//brick.a.ssl.fastly.net/fonts/sourcesanspro/900i.woff) format('woff')}@font-face{font-family:'Alegreya';font-style:italic;font-weight:400;src:local('Alegreya Italic'),url(//brick.a.ssl.fastly.net/fonts/alegreya/400i.woff) format('woff')}@font-face{font-family:'Alegreya';font-style:italic;font-weight:700;src:local('Alegreya Bold Italic'),url(//brick.a.ssl.fastly.net/fonts/alegreya/700i.woff) format('woff')}
-
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),url(//brick.a.ssl.fastly.net/fonts/opensans/400.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),url(//brick.a.ssl.fastly.net/fonts/opensans/700.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:900;src:local('Open Sans Extrabold'),url(//brick.a.ssl.fastly.net/fonts/opensans/900.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:400;src:local('Open Sans Italic'),url(//brick.a.ssl.fastly.net/fonts/opensans/400i.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:700;src:local('Open Sans Bold Italic'),url(//brick.a.ssl.fastly.net/fonts/opensans/700i.woff) format('woff')}@font-face{font-family:'Open Sans';font-style:italic;font-weight:900;src:local('Open Sans Extrabold Italic'),url(//brick.a.ssl.fastly.net/fonts/opensans/900i.woff) format('woff')}
 
 @font-face {
   font-family: 'Ampersand';

@@ -99,7 +99,7 @@ html {
 }
 
 body {
-    font-family: "Source Serif Pro", Georgia, serif;
+    font-family: "Open Sans", Georgia, serif;
     color: #333;
     font-size:21px;
     background: #fdfdfd;
@@ -126,7 +126,7 @@ main-nav a,
 .post-meta,
 .site-footer,
 .pagination{
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 h3, h4, h5, h6,
@@ -150,8 +150,8 @@ a:hover {
 
 em, i {
 /*  Yeah, this is a hack.
-    Real italics are coming to Source Serif Pro, but I couldn’t wait to use it.*/
-  font-family: "Alegreya";
+    Real italics are coming to Open Sans, but I couldn’t wait to use it.*/
+  font-family: "Open Sans";
   font-style: italic;
 }
 
@@ -167,6 +167,7 @@ strong, bold, b{
    Comment this block out if you want your paragraphs marked by space rather
    than indent. */
 
+/*
 .post-content p + p,
 .post-content .thumb + p,
 .post-content aside + p{
@@ -188,6 +189,7 @@ strong, bold, b{
   margin-bottom: 1.5rem;
   -webkit-margin-after:1rem;
 }
+*/
 
 /* END OF TRADITIONAL PARAGRAPH STYLES*/
 
@@ -274,7 +276,7 @@ blockquote {
 blockquote p {
   margin: 0;
   font-style: italic;
-  font-family: "Alegreya", georgia, serif;
+  font-family: "Open Sans", georgia, serif;
 }
 
 blockquote small {
@@ -374,7 +376,7 @@ table {
   width: 100%;
   max-width: 100%;
   background-color: transparent;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 table th,
@@ -495,7 +497,7 @@ margin on the iframe, cause it breaks stuff. */
   font-style: italic;
   border-left: none;
   color:slategray;
-  font-family: "Alegreya", georgia, serif;
+  font-family: "Open Sans", georgia, serif;
 }
 
 .pullquote--pulled:before, .pull:before{
@@ -509,7 +511,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 aside{
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   width: 40%;
   float:right;
   line-height: 1.4;
@@ -546,7 +548,7 @@ aside.note:before{
   text-indent: 0;
   font-size:1em;
   text-decoration: none;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   text-transform: uppercase;
   margin:.5em auto !important;
   display: inline-block;
@@ -644,7 +646,7 @@ aside.note:before{
   text-align: center;
   font-weight: 400;
   letter-spacing: 0 !important;
-  font-family: "Source Serif Pro", Georgia, serif;
+  font-family: "Open Sans", Georgia, serif;
 }
 
 .page-description {
@@ -792,7 +794,7 @@ aside.note:before{
 }
 
 .post-meta {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   display: block;
   margin: .5em 0 0 0;
   color: lightslategray;
@@ -1604,7 +1606,7 @@ top: -35px;
   }
 
   body {
-    font: 14px "Source Serif Pro", Georgia, serif;
+    font: 14px "Open Sans", Georgia, serif;
     line-height: 1.6;
     color: #000;
   }
