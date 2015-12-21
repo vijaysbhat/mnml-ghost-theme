@@ -108,7 +108,7 @@ html {
 }
 
 body {
-    font-family: "Source Serif Pro", Georgia, serif;
+    font-family: "Avenir", sans-serif;
     color: #333;
 /*    font-size:100%;*/
     font-size:21px;
@@ -137,7 +137,7 @@ main-nav a,
 .site-footer,
 .pagination,
 .sans-serif{
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 h4, h5, h6,
@@ -231,7 +231,7 @@ input, textarea{
   min-width: 55%;
   border:2px solid slategray;
   padding:.55rem;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   margin: .55rem auto;
   box-sizing: border-box;
 }
@@ -405,7 +405,7 @@ table {
   width: 100%;
   max-width: 100%;
   background-color: transparent;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 table th,
@@ -598,7 +598,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 aside{
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   width: 40%;
   float:right;
   line-height: 1.65;
@@ -636,7 +636,7 @@ aside.note:before{
   padding: .55rem 1.1rem;
   text-indent: 0;
   text-decoration: none;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   text-transform: uppercase;
   margin:.5em auto !important;
   display: inline-block;
@@ -764,7 +764,7 @@ aside.note:before{
   color: #444;
   text-transform: none;
   font-weight: 400;
-  font-family: "Source Serif Pro", Georgia, serif;
+  font-family: Helvetica, sans-serif;
   padding: 0.55rem 1.65rem 0rem 0 ;
   margin-bottom: 0;
   box-sizing: border-box;
@@ -801,7 +801,7 @@ aside.note:before{
   border:none;
   cursor: pointer;
   z-index: 4;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: transparent;
   box-shadow: none;
   background-repeat: no-repeat;
@@ -907,7 +907,7 @@ aside.note:before{
 }
 
 .post-meta {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   display: block;
   margin: 0;
   color: lightslategray;
@@ -1357,13 +1357,14 @@ aside.note:before{
   padding: 1.65rem 0 2.457rem 0;
   border-top: #EBF2F6 1px solid;
   text-align: center;
-  background: #F7FAFB;
+  background: #F6F6F6;
   color:#aaa;
+  font-size: 10px;
 }
 
 .site-footer nav li{
   display:inline;
-
+  font-size: 21px;
 }
 
 .site-footer nav li:after{
@@ -1493,7 +1494,7 @@ top: -35px;
   html{
     font-size:80%;
   }
-  
+
   .inner, .main-header, .post {
     padding: 1.1rem 2.457rem;
   }
@@ -1535,7 +1536,7 @@ top: -35px;
     height: auto;
     /*padding-left: .55rem;*/
   }
-  
+
   .blog-logo img {
     display: none;
   }
@@ -1546,12 +1547,12 @@ top: -35px;
     text-align: left;
     clear: both;
   }
-  
+
   .main-nav,
   .main-nav--content{
     max-width: 100% !important;
   }
-  
+
   .page-template .main-nav,
   .post-template .main-nav,
   .page-template .main-nav--content,
@@ -1559,10 +1560,10 @@ top: -35px;
     margin-left: 1.1rem;
     left: 0.825rem;
   }
-  
+
   .main-nav h3{
   }
-  
+
   hr {
     margin: 2.4em 0;
   }
@@ -1596,7 +1597,7 @@ top: -35px;
   body{
     font-size:16px;
   }
-  
+
   .inner, .post, .main-header {
     padding: 1.1rem 2.457rem;
   }
@@ -1639,7 +1640,7 @@ top: -35px;
     width: 100% !important;
     right:0.55rem;
     padding-left: 1.1rem;
-    
+
   }
 
   .main-nav{
@@ -1666,7 +1667,7 @@ top: -35px;
   .home-template .open-menu,
   .archive-template .open-menu{
     top:2.457rem;
-    
+
   }
 
   .inner,
@@ -1771,6 +1772,7 @@ top: -35px;
 
   .page-number {
     display: block;
+    font-size: 10px;
   }
 
   .author-profile .author-image {
