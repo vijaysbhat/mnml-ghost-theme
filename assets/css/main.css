@@ -138,6 +138,7 @@ main-nav a,
 .pagination,
 .sans-serif{
     font-family: Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 h4, h5, h6,
@@ -168,7 +169,7 @@ em, i {
 }
 
 strong, bold, b{
-  font-weight: 300;
+  font-weight: 700;
 }
 
 /* ================= TRADITIONAL PARAGRAPHING ======================*/
